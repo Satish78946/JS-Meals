@@ -1,19 +1,30 @@
-# JS-Meals
-# JS Meals
+JS Meals
+JS Meals is a full stack web application for managing meals. Users can view a list of meals, add new meals, and see details for each meal. This project uses Node.js, Express.js, MySQL, Sequelize, HTML, CSS, and JavaScript.
 
-JS Meals is a simple meal ordering web application built using HTML, CSS, and JavaScript. Users can select meals from a menu, add them to their order, and view the total cost.
+Prerequisites
+   Node.js and npm
+   MySQL
 
-  
-## Features
 
-- Display a menu of meals with prices.
-- Allow users to add meals to their order.
-- Display the selected meals and the total cost.
+##Steps
+Clone the repository
+Install server dependencies
+Setup the MySQL database
+Configure the database connection
+Run the server
+Open the application in your browser
 
-Project Structure
- 
-    js-meals/
-    ├── index.html
-    ├── styles.css
-    ├── script.js
-    └── README.md
+###Technologies Used
+
+##Backend:
+
+Node.js
+Express.js
+MySQL
+Sequelize
+
+##Frontend:
+
+HTML
+CSS
+JavaScript
