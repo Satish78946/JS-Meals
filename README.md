@@ -6,12 +6,7 @@ JS Meals is a simple meal ordering web application built using HTML, CSS, and Ja
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Features
 
 - Display a menu of meals with prices.
