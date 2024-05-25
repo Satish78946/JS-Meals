@@ -1,66 +1,57 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-h1, h2 {
-    text-align: center;
-    color: #333;
-}
-
-.menu, .order {
-    margin: 20px 0;
-    padding: 20px;
     background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
 }
 
-.meal {
-    display: inline-block;
-    width: 30%;
+h1 {
+    margin: 0 0 20px 0;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background: #f9f9f9;
 }
 
-.meal button {
-    padding: 10px 20px;
-    background: #28a745;
-    color: #fff;
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
     cursor: pointer;
 }
 
-.meal button:hover {
-    background: #218838;
+button:hover {
+    background-color: #0056b3;
 }
 
-.order ul {
-    list-style: none;
-    padding: 0;
+#meal-list {
+    margin-top: 20px;
 }
 
-.order li {
-    margin: 5px 0;
-    padding: 10px;
-    background: #e9ecef;
-    border-radius: 4px;
-}
-
-#totalPrice {
-    font-size: 1.2em;
-    text-align: right;
+.meal {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
 }
