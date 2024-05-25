@@ -9,28 +9,13 @@
 <body>
     <div class="container">
         <h1>JS Meals</h1>
-        <div class="menu">
-            <div class="meal" data-name="Burger" data-price="5">
-                <h2>Burger</h2>
-                <p>$5.00</p>
-                <button onclick="addToOrder('Burger', 5)">Add to Order</button>
-            </div>
-            <div class="meal" data-name="Pizza" data-price="8">
-                <h2>Pizza</h2>
-                <p>$8.00</p>
-                <button onclick="addToOrder('Pizza', 8)">Add to Order</button>
-            </div>
-            <div class="meal" data-name="Salad" data-price="4">
-                <h2>Salad</h2>
-                <p>$4.00</p>
-                <button onclick="addToOrder('Salad', 4)">Add to Order</button>
-            </div>
-        </div>
-        <div class="order">
-            <h2>Your Order</h2>
-            <ul id="orderList"></ul>
-            <p id="totalPrice">Total: $0.00</p>
-        </div>
+        <form id="meal-form">
+            <input type="text" id="name" placeholder="Meal Name" required>
+            <textarea id="description" placeholder="Description"></textarea>
+            <input type="number" id="price" placeholder="Price" required>
+            <button type="submit">Add Meal</button>
+        </form>
+        <div id="meal-list"></div>
     </div>
     <script src="script.js"></script>
 </body>
